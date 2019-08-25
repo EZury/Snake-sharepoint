@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "snake-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/snake/SnakeWebPart.js",
+          "manifest": "./src/webparts/snake/SnakeWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SnakeWebPartStrings": "lib/webparts/snake/loc/{locale}.js"
+  }
+}
